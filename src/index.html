@@ -40,13 +40,14 @@
               </tbody>
             </table>
             <hr/>
-            <form onSubmit="App.castVote(); return false;">
+            <form onSubmit="return false;">
               <div class="form-group">
                 <label for="candidatesSelect">Select Candidate</label>
                 <select class="form-control" id="candidatesSelect">
                 </select>
               </div>
-              <button type="submit" class="btn btn-primary">Vote</button>
+              <button type="submit" name = "vote_button" class="btn btn-primary" onclick="App.castVote();">Vote</button>
+              <button type="submit" name = "change_vote" class="btn btn-primary" onclick="App.changeVote()">Change vote</button>
               <hr />
             </form>
             <p id="accountAddress" class="text-center"></p>
