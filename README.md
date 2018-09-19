@@ -1,9 +1,10 @@
 
-# Election - DAPP Tutorial
-Build your first decentralized application, or Dapp, on the Ethereum Network with this tutorial!
+# Election - Voting application using block chain
 
-**Full Free Video Tutorial:**
-https://youtu.be/3681ZYbDSSk
+voters can change their vites securely after voting once
+
+
+
 
 
 Follow the steps below to download, install, and run this project.
